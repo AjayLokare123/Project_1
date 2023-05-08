@@ -1,0 +1,71 @@
+<html>
+    <head>
+
+        <title> loan approval 1</title> 
+
+    </head>
+
+    <body> LOAN APPROVAL </body>
+
+    <form action="/predict" method="POST">
+        <label> Gender </label>
+        <select name="gender">
+            <option value = '1'>MALE</option>
+            <option value = '0'>FEMALE</option>
+        </select><br><br>
+
+        <label> married</label>
+        <select name="married variable">
+            <option value = '1'>YES</option>
+            <option value = '0'>NO</option>
+        </select><br><br>
+
+        <label> Dependents</label>
+        <select name="Dependents">
+            <option value = '0'>0</option>
+            <option value = '1'>1</option>
+            <option value = '2'>2</option>
+            <option value = '3'>3</option>
+            <option value = '4'>4</option>
+        </select><br><br>
+
+        <label>education</label>
+        <select name="Education">
+            <option value = "0">Gratuate</option>
+            <option value = "1">Not Gratuate</option>
+
+        </select><br><br>
+
+        <label>Self Employed</label>
+        <select name = 'Self_employed'>
+            <option value ='1'>YES</option>
+            <option value="0">NO</option>
+        </select><br><br>
+
+        <label> loan amount Term</label> <input type="text" name="laon_amount_term">
+
+        <label>credit history</label>
+        <select name = 'credit_history'>
+            <option value ='1'>YES</option>
+            <option value="0">NO</option>
+        </select><br><br>
+
+        <label>propery area </label>
+        <select name = 'propery_area'>
+            <option value ='0'>Rular</option>
+            <option value="1">semiurban</option>
+            <option value="2">urban</option>
+        </select><br><br>
+
+        <label>loan_amount</label> <input type="text" name="loan amount"><br><br>
+
+        <label>applicant_amount</label> <input type="text" name="applicant amount"><br><br>
+
+        <label>coapplicant_amount</label> <input type="text" name="coapplicant amount">
+
+
+     <lable>SUBMIT</lable> <input type="submit">
+    
+
+    </form>
+</html>
